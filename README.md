@@ -1,4 +1,4 @@
-=== Yr Weather shortcode Wordpress plugin ===
+== Yr Weather shortcode Wordpress plugin ==
 Contributors: uthne
 Tags: Weather, Article, article, post, page, custom post type
 Version: 1.0
