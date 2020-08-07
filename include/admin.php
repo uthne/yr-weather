@@ -2,7 +2,7 @@
 
 /*---------- Admin ----------*/
 /**
-* Create and display admin panel for post type
+* Create and display admin panel shortcode
 **/
 
 add_action( 'admin_menu', 'wpyr_add_admin_menu' );

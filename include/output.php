@@ -2,10 +2,7 @@
 
 /*---------- Output ----------*/
 /**
-* Define custom template for post type 
-* TODO: bruk wp_list_categories i template for achive
-* Ikke lag autofill hvis det ikke finnes poster
-* Bruk filter[the_excerpt] på søkeresultater.
+* TODO: 
 **/
 
 $wpyr_default_css = "";

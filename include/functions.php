@@ -2,8 +2,7 @@
 
 /*---------- Functions ----------*/
 /**
-* All functions are loading with !function_exists(f) 
-* so they may be overwritten with local (non en_US) functions
+* TODO: 
 **/
 
 

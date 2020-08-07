@@ -1,7 +1,9 @@
 <?php
 
-//TODO: 
-
+/*---------- Shortcode ----------*/
+/**
+* TODO: 
+**/
 
 add_shortcode('wpyr_weather','wpyr_weather_shortcode');
 function wpyr_weather_shortcode($atts){
