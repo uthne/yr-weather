@@ -41,6 +41,14 @@ Should the program prove defective, you assume the cost of all necessary servici
 == Features ==
 
 
+== Screenshots ==
+
+1. Settings page: General options
+2. Settings page: Template options
+3. Settings page: Shortcode
+4. Settings page: Help-tab
+
+
 == Translations ==
 
 The plugin is written with English as primary language with fully translatable text strings. Out of the box the plugin includes translations to Norwegian "Bokmål" (nb_NO) and Norwegian "Nynorsk" (nn_NO). You can easily translate the plugin to your own language using Wordpress plugin like Loco Translate, or locally on your computer with Poedit.
