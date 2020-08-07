@@ -43,8 +43,8 @@ Should the program prove defective, you assume the cost of all necessary servici
 
 == Screenshots ==
 
-1. Settings page: General settings
-2. Settings page: Template settings
+1. Settings page: General options
+2. Settings page: Template options
 3. Settings page: Shortcode
 4. Settings page: Help-tab
 
