@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Yr Weather shortcodes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-07 07:56+0000\n"
-"PO-Revision-Date: 2020-08-07 07:57+0000\n"
+"POT-Creation-Date: 2020-08-07 09:13+0000\n"
+"PO-Revision-Date: 2020-08-07 09:16+0000\n"
 "Last-Translator: \n"
-"Language-Team: Norwegian (Nynorsk)\n"
+"Language-Team: Norsk nynorsk\n"
 "Language: nn_NO\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.4.0; wp-5.4.2"
+"X-Loco-Version: 2.4.1; wp-5.4.2"
 
 #: include/shortcodes.php:143 include/shortcodes-backup.php:136
 msgid "In the next hour"
@@ -56,30 +56,29 @@ msgstr ""
 
 #: include/help.php:18
 msgid ""
-"This plugin is provided as full version, free-to-use under Creative Commons "
-"(CC) license. The yr.no weather service is a governmental service financed "
-"for by Norwegian tax-payers and are free to use under Creative Commons "
-"license."
+"This plugin is provided as full version, free-to-use under GPLv3 license. "
+"The yr.no weather service is a governmental service financed for by "
+"Norwegian tax-payers and are free to use under Creative Commons license."
 msgstr ""
 "Denne modulen er ein fullstendig versjon som kan brukast fritt og utan "
-"kostnad etter Creative Commons lisens. Vêrtjenesta yr.no er eit statlig "
-"føretak finansiert av norske skattebetalarar, og kan brukast fritt etter "
-"Creative Commons lisens."
+"kostnad etter GPLv3 lisens. Vêrtjenesta yr.no er eit statlig føretak "
+"finansiert av norske skattebetalarar, og kan brukast fritt etter Creative "
+"Commons lisens."
 
 #: include/help.php:19
 msgid ""
 "The weather symbols \"outline\" and \"black\" are made by the author of this "
-"plugin, and published under Creative Commons. The symbols are loosely based "
-"on the weather icons provided by the yr.no weather service. The color "
-"weather icons are property of yr.no weather service and published under free-"
-"to-use MIT license on <a href=\"https://github.com/nrkno/yr-weather-"
-"symbols\">GitHub</a>."
+"plugin, and published under GPLv3 license. The symbols are loosely based on "
+"the weather icons provided by the yr.no weather service. The color weather "
+"icons are property of yr.no weather service and published under free-to-use "
+"MIT license on <a href=\"https://github.com/nrkno/yr-weather-symbols\">"
+"GitHub</a>."
 msgstr ""
 "Vêrsymbola \"Kantlinje\" og \"Svart\" er laga av utviklaren av denne "
-"innstikksmodulen og utgitt under Creative Commons lisens. Symbola er laust "
-"basert på vêrsymbola frå vêrtjenesten yr.no. Vêrsymbola i farge er "
-"vêrtjenesta yr.no sin eigedom og utgitt under en gratis MIT-lisens på  <a "
-"href=\"https://github.com/nrkno/yr-weather-symbols\">GitHub</a>."
+"innstikksmodulen og utgitt under GPLv3 lisens. Symbola er laust basert på "
+"vêrsymbola frå vêrtjenesten yr.no. Vêrsymbola i farge er vêrtjenesta yr.no "
+"sin eigedom og utgitt under en gratis MIT-lisens på  <a href=\"https:"
+"//github.com/nrkno/yr-weather-symbols\">GitHub</a>."
 
 #: include/help.php:20
 msgid ""
@@ -101,7 +100,7 @@ msgstr "utgåve"
 msgid "General options for Yr Weather"
 msgstr "Generelle val for Yr Vêr"
 
-#: include/help.php:26 include/admin.php:76
+#: include/help.php:26 include/admin.php:75
 msgid "Default place"
 msgstr "Standard stad"
 
@@ -125,7 +124,7 @@ msgstr ""
 "<pre>https://www.yr.no/stad/<span style=\"background-color: #ffff00;\">"
 "Noreg/Oslo/Oslo/Oslo</span>/?spr=eng</pre>"
 
-#: include/help.php:32 include/admin.php:83
+#: include/help.php:32 include/admin.php:82
 msgid "Offset"
 msgstr "Forskyving"
 
@@ -139,7 +138,7 @@ msgstr ""
 "å få ein beskrivande tekst av forskyvinga, som <em>\"3 timer frå no\"</em> i "
 "vêrvarslet. "
 
-#: include/help.php:37 include/admin.php:90
+#: include/help.php:37 include/admin.php:89
 msgid "Icon set"
 msgstr "Ikonsett"
 
@@ -164,7 +163,7 @@ msgstr ""
 "Bruk vanleg CSS definisjon, som til dømes <em>100px</em>, <em>3em</em> or "
 "<em>100vw</em>."
 
-#: include/help.php:47 include/admin.php:111
+#: include/help.php:47 include/admin.php:110
 msgid "Small icons"
 msgstr "Små ikoner"
 
@@ -192,7 +191,7 @@ msgstr ""
 "Vil gjelde for dei ikona/symbola du leggjer til i malen. Bruk vanlege CSS "
 "definisjonar som til dømes <em>50px</em>, <em>3em</em> eller <em>5vw</em>."
 
-#: include/help.php:57 include/admin.php:132
+#: include/help.php:57 include/admin.php:131
 msgid "Use icon as color-mask"
 msgstr "Bruk ikonet som farge-maskering"
 
@@ -218,7 +217,7 @@ msgstr ""
 msgid "Template options for Yr Weather"
 msgstr "Malval for Yr Vêr"
 
-#: include/help.php:72 include/admin.php:166
+#: include/help.php:72 include/admin.php:165
 msgid "Custom CSS"
 msgstr "Eigen CSS"
 
@@ -242,7 +241,7 @@ msgstr ""
 "style=\"color:green\">_height_</em> og <em style=\"color:green\">_color_</em>"
 " for å hente desse frå generelle val."
 
-#: include/help.php:76 include/admin.php:173
+#: include/help.php:76 include/admin.php:172
 msgid "Custom HTML for single"
 msgstr "HTML for enkeltvisning"
 
@@ -257,7 +256,7 @@ msgstr ""
 "nøkkelorda nedanfor for å leggje inn data-element i utforminga. <em>"
 "Omsetjelege tekster</em> kan nyttast for å leggje inn lokalt omsette tekster."
 
-#: include/help.php:80 include/admin.php:180
+#: include/help.php:80 include/admin.php:179
 msgid "Custom HTML for loop"
 msgstr "HTML for sløyfe/sekvens"
 
@@ -288,7 +287,7 @@ msgstr ""
 "Om du ikkje nytter [@loop-start] og [@loop-end], vil ein &lt;DIV&gt; med "
 "klassa frå  <em>Klasse for container</em> leggjast til."
 
-#: include/help.php:84 include/admin.php:187
+#: include/help.php:84 include/admin.php:186
 msgid "Use single template for loop"
 msgstr "Bruk enkelt-mal i sekvens"
 
@@ -303,7 +302,7 @@ msgstr ""
 "du har definert ein mal for sløyfe, og nytta  [@loop-start] og [@loop-end], "
 "vil malen mellom desse nøkkelorda bli erstatta med mal for enkeltvisning."
 
-#: include/help.php:88 include/admin.php:194
+#: include/help.php:88 include/admin.php:193
 msgid "Class for container"
 msgstr "Klasse for container"
 
@@ -1013,7 +1012,7 @@ msgstr "Nordvest"
 msgid "North-Northwest"
 msgstr "Nord-nordvest"
 
-#: include/admin.php:23
+#: include/admin.php:22
 msgid ""
 "Create custom CSS to style the elements on your page. Use the help-tab in "
 "the upper right corner for more info..."
@@ -1021,7 +1020,7 @@ msgstr ""
 "Lag din eigen CSS for å leggje stil på utforminga av vêrvarslet. Bruk Hjelp-"
 "fane øvst til høgre for å lese meir..."
 
-#: include/admin.php:24
+#: include/admin.php:23
 msgid ""
 "Create custom layout with HTML code and use the keywords below to place data "
 "in your layout. Use help-tab in the upper right corner to read more..."
@@ -1029,155 +1028,155 @@ msgstr ""
 "Lag din eigen utforming med HTML-kode og bruk nøkkelorda nedanfor til å "
 "leggje inn vêrdata. Bruk Hjelp-fane øvst til høgre for å lese meir..."
 
-#: include/admin.php:25
+#: include/admin.php:24
 msgid "Select image"
 msgstr "Velg bilete"
 
-#: include/admin.php:46
+#: include/admin.php:45
 msgid "Yr Weather Options"
 msgstr "Val for Yr Vêr"
 
-#: include/admin.php:47
+#: include/admin.php:46
 msgid "Weather Options"
 msgstr "Val for Vêr"
 
-#: include/admin.php:65
+#: include/admin.php:64
 msgid "General"
 msgstr "Generelt"
 
-#: include/admin.php:69
+#: include/admin.php:68
 msgid "General opions for Yr Weather shortcodes"
 msgstr "Generelle val for Yr Vêr snøggkode"
 
-#: include/admin.php:97
+#: include/admin.php:96
 msgid "Icon width"
 msgstr "Ikonbreidde"
 
-#: include/admin.php:104
+#: include/admin.php:103
 msgid "Icon height"
 msgstr "Ikonhøgde"
 
-#: include/admin.php:118
+#: include/admin.php:117
 msgid "Small icon width"
 msgstr "Små ikon breidde"
 
-#: include/admin.php:125
+#: include/admin.php:124
 msgid "Small icon height"
 msgstr "Små ikon høgde"
 
-#: include/admin.php:139
+#: include/admin.php:138
 msgid "Icon color"
 msgstr "Ikonfarge"
 
-#: include/admin.php:147
+#: include/admin.php:146
 msgid "Reset"
 msgstr "Nullstill"
 
-#: include/admin.php:156
+#: include/admin.php:155
 msgid "Templates"
 msgstr "Maler"
 
-#: include/admin.php:160
+#: include/admin.php:159
 msgid "Template options for Yr Weather shortcodes"
 msgstr "Malval for Yr Vêr snøggkode"
 
-#: include/admin.php:203
+#: include/admin.php:202
 msgid "Shortcode"
 msgstr "Snøggkode"
 
-#: include/admin.php:207
+#: include/admin.php:206
 msgid "Shortcode for Yr Weather"
 msgstr "Snøggkode for Yr Vêr"
 
-#: include/admin.php:217
+#: include/admin.php:216
 msgid "This is the general settings for Yr weather shortcodes."
 msgstr "Dette er dei generelle vala for Yr Vêr snøggkode."
 
-#: include/admin.php:218 include/admin.php:337
+#: include/admin.php:217 include/admin.php:336
 msgid "Use the Help-tab in the upper right corner for more info on settings."
 msgstr "Bruk Hjelp-fana øvst i høgre hjørnet for meir informasjon om vala."
 
-#: include/admin.php:227
+#: include/admin.php:226
 msgid "See Help-tab in upper right corner on how to get correct place."
 msgstr ""
 "Se Hjelp-fana øvst i høgre hjørne for meir informasjon om korleis du finn "
 "rett stad."
 
-#: include/admin.php:234
+#: include/admin.php:233
 msgid "Now"
 msgstr "No"
 
-#: include/admin.php:239
+#: include/admin.php:238
 msgid "Hours offset to forecast."
 msgstr "Timer forskyving til vêrvarsel."
 
-#: include/admin.php:250 include/admin.php:279
+#: include/admin.php:249 include/admin.php:278
 msgid "Outline Thin"
 msgstr "Tynn kantlinje"
 
-#: include/admin.php:251 include/admin.php:280
+#: include/admin.php:250 include/admin.php:279
 msgid "Outline Normal"
 msgstr "Normal kantlinje"
 
-#: include/admin.php:252 include/admin.php:281
+#: include/admin.php:251 include/admin.php:280
 msgid "Outline Fat"
 msgstr "Fet kantlinje"
 
-#: include/admin.php:253 include/admin.php:282
+#: include/admin.php:252 include/admin.php:281
 msgid "Black"
 msgstr "Svart"
 
-#: include/admin.php:254
+#: include/admin.php:253
 msgid "Yr Color V.3.0"
 msgstr "Yr farge 3.0"
 
-#: include/admin.php:256
+#: include/admin.php:255
 msgid "Select icon set to use as standard."
 msgstr "Velg standard ikonsett."
 
-#: include/admin.php:266
+#: include/admin.php:265
 msgid "Write css width, i.e 100px, 100%, 10vw etc."
 msgstr "Skriv CSS breidde, til dømes 100px, 100%, 10vw osv."
 
-#: include/admin.php:273
+#: include/admin.php:272
 msgid "Write css height, i.e 100px, 10vw, 10vw etc."
 msgstr "Skriv CSS høgde, til dømes 100px, 100%, 10vw osv."
 
-#: include/admin.php:284
+#: include/admin.php:283
 msgid ""
 "Icon set for symbols like temperature, wind, direction, barometer, "
 "precipitation etc."
 msgstr ""
 "Ikonsett for symbol for temperatur, vind, retning, lufttrykk, nedbør osv."
 
-#: include/admin.php:294
+#: include/admin.php:293
 msgid "Write css width, i.e 50px, 50%, 5vw etc."
 msgstr "Skriv CSS breidde, til dømes 50px, 50%, 5vw osv."
 
-#: include/admin.php:301
+#: include/admin.php:300
 msgid "Write css height, i.e 50px, 5em, 5vw etc."
 msgstr "Skriv CSS høgde, til dømes 50px, 50%, 5vw osv."
 
-#: include/admin.php:309
+#: include/admin.php:308
 msgid "Add color to icon."
 msgstr "Legg farge på ikona."
 
-#: include/admin.php:316
+#: include/admin.php:315
 msgid "Defines a color tint to icon mask."
 msgstr "Definerer ein farge for ikon-maska."
 
-#: include/admin.php:324
+#: include/admin.php:323
 msgid ""
 "Check to force default options when plugin is deactivated and reactivated."
 msgstr ""
 "Kryss av for å tvinge fram fabrikk-innstilling når innstikksmodulen skrus av-"
 " og på igjen."
 
-#: include/admin.php:336
+#: include/admin.php:335
 msgid "This is the settings for templates for Yr Weather shortcodes."
 msgstr "Dette er vala for maler til Yr Vêr snøggkode."
 
-#: include/admin.php:352
+#: include/admin.php:351
 msgid ""
 "This CSS will be written to the &lt;head&gt; tag, but for optimized "
 "performance it is best practice to implement CSS-code in your theme."
@@ -1185,34 +1184,34 @@ msgstr ""
 "Denne CSS-koda blir skrevet til &lt;head&gt;, men for optimal yting er det "
 "tilrådeleg å leggje all CSS-kode i bunaden."
 
-#: include/admin.php:367
+#: include/admin.php:366
 msgid "Use these tags to include weather data in your layout:"
 msgstr "Bruk desse nøkkelorda for å leggje vêrdata inn i utforminga:"
 
-#: include/admin.php:375
+#: include/admin.php:374
 msgid "Translatable texts (also with first letter capitalized):"
 msgstr "Omsetjelege tekster (også med stor forbokstav):"
 
-#: include/admin.php:396
+#: include/admin.php:395
 msgid "Use all tags above, and the following to mark start and end of loop:"
 msgstr ""
 "Bruk alle nøkkelorda over, og følgjande for å merke start og slutt på sløyfe:"
 
-#: include/admin.php:406
+#: include/admin.php:405
 msgid "Use single template in loop shortcode."
 msgstr "Bruk mal for enkeltvisning i sløyfe."
 
-#: include/admin.php:413
+#: include/admin.php:412
 msgid "Class of outer container (if loop template is not defined)."
 msgstr ""
 "Klasse til omsluttande <em>container</em> (dersom sløyfe-mail ikkje er lagra)"
 "."
 
-#: include/admin.php:425
+#: include/admin.php:424
 msgid "These are the shortcodes and attributes for Yr Weather."
 msgstr "Dette er snøggkoda med attributt for Yr Vêr."
 
-#: include/admin.php:430
+#: include/admin.php:429
 msgid ""
 "Using the shortcode without any attributes will render the weather forecast "
 "as defined in the shortcode settings. You can however add several variables, "
@@ -1222,7 +1221,7 @@ msgstr ""
 "som oppgitt i vala for snøggkoda. Du kan også leggje til ulike variablar, "
 "eller attributt for å overstyre vala."
 
-#: include/admin.php:432
+#: include/admin.php:431
 msgid ""
 "Set the location for the weather forecast. See help-tab in upper right "
 "corner for more information on how to obtain correct location."
@@ -1230,13 +1229,13 @@ msgstr ""
 "Velg plassering for vêrvarsel. Se Hjelp-fana øvst i høgre hjørne for meir "
 "informasjon om korleis du finn rett stad."
 
-#: include/admin.php:433
+#: include/admin.php:432
 msgid ""
 "You can offset the time of forecast from 0 to 47 hours, i.e offset=\"24\"."
 msgstr ""
 "Du kan utsetje tida for vêrvarsel frå 0 til 47 timer, m.a.o. offset=\"24\"."
 
-#: include/admin.php:434
+#: include/admin.php:433
 msgid ""
 "Use this to select the icon set. You can choose <em>thin</em>, <em>"
 "normal</em>, <em>fat</em>, <em>black</em> or <em>color</em>."
@@ -1244,7 +1243,7 @@ msgstr ""
 "Bruk denne for å velje ikonsett. Du kan velje <em>thin</em>, <em>normal</em>,"
 " <em>fat</em>, <em>black</em> eller <em>color</em>."
 
-#: include/admin.php:435
+#: include/admin.php:434
 msgid ""
 "The width of the icon, use any CSS definition, like <em>100px</em>, <em>"
 "100%</em> or <em>25vw</em>."
@@ -1252,7 +1251,7 @@ msgstr ""
 "Breidda på vêrsymbolet, bruk vanleg CSS-definisjon, som til dømes <em>"
 "100px</em>, <em>100%</em> eller <em>25vw</em>."
 
-#: include/admin.php:436
+#: include/admin.php:435
 msgid ""
 "The height of the icon, use any CSS definition except %, like <em>100px</em>,"
 " <em>10em</em> or <em>auto</em>."
@@ -1260,7 +1259,7 @@ msgstr ""
 "Høgda på vêrsymbolet, bruk vanleg CSS utanom %, som til dømes <em>100px</em>,"
 " <em>10em</em> eller <em>auto</em>."
 
-#: include/admin.php:437
+#: include/admin.php:436
 msgid ""
 "Icon set for symbols like temperature, wind, direction, barometer, "
 "precipitation etc in your template. You can choose <em>thin</em>, <em>"
@@ -1270,7 +1269,7 @@ msgstr ""
 "kan velje  <em>thin</em>, <em>normal</em>, <em>fat</em>, <em>black</em> "
 "eller <em>color</em>."
 
-#: include/admin.php:438
+#: include/admin.php:437
 msgid ""
 "The width of the smallicon, use any CSS definition, like <em>100px</em>, <em>"
 "100%</em> or <em>25vw</em>."
@@ -1278,7 +1277,7 @@ msgstr ""
 "Breidda på små ikon, bruk vanleg CSS-definisjon, som til dømes <em>100px</em>"
 ", <em>100%</em> eller <em>25vw</em>."
 
-#: include/admin.php:439
+#: include/admin.php:438
 msgid ""
 "The height of the smallicon, use any CSS definition except %, like <em>"
 "100px</em>, <em>10em</em> or <em>auto</em>."
@@ -1286,11 +1285,11 @@ msgstr ""
 "Høgda på små ikon, bruk vanleg CSS utanom %, som til dømes <em>100px</em>, "
 "<em>10em</em> eller <em>auto</em>."
 
-#: include/admin.php:440
+#: include/admin.php:439
 msgid "<em>yes</em> or <em>no</em> if the icon should be used as a color mask."
 msgstr "<em>yes</em> eller <em>no</em> om ikona skal nyttes som farge-maske."
 
-#: include/admin.php:441
+#: include/admin.php:440
 msgid ""
 "The color to be applied to the icon color mask. Use CSS definition such as "
 "<em>#ff0000</em> or <em>rgba(255,0,0,0.5)</em>"
@@ -1298,7 +1297,7 @@ msgstr ""
 "Fargen som leggjast på ikona. Bruk vanleg CSS, som til dømes <em>#ff0000</em>"
 " eller <em>rgba(255,0,0,0.5)</em>"
 
-#: include/admin.php:443
+#: include/admin.php:442
 msgid ""
 "[wpyr_weather place=\"Norway/Oslo/Oslo/Oslo\" offset=\"3\" icon=\"fat\" "
 "width=\"200px\" height=\"200px\" mask=\"yes\" color=\"rgba(0,0,0,0.5)\"]"
@@ -1306,7 +1305,7 @@ msgstr ""
 "[wpyr_weather place=\"Norge/Oslo/Oslo/Oslo\" offset=\"3\" icon=\"fat\" "
 "width=\"200px\" height=\"200px\" mask=\"yes\" color=\"rgba(0,0,0,0.5)\"]"
 
-#: include/admin.php:448
+#: include/admin.php:447
 msgid ""
 "Use the same shortcode but add the <em>end</em> attribute with the <em>"
 "offset</em> attribute to make a loop/sequence of forecasts. You can use all "
@@ -1317,23 +1316,23 @@ msgstr ""
 "offset</em> attributtet for å lage ei sløyfe/sekvens med vêrvarsel. Det vil "
 "bare være ein samtale til yr.no for å samle vêrdata for ein sløyfe/sekvens"
 
-#: include/admin.php:450
+#: include/admin.php:449
 msgid ""
 "You can offset the start of forecast from 0 to 47 hours, i.e offset=\"6\"."
 msgstr ""
 "Du kan utsetje starten på vêrvarselet frå 0 til 47 timer, m.a.o. "
 "offset=\"6\"."
 
-#: include/admin.php:451
+#: include/admin.php:450
 msgid ""
 "Number of hours to the last forecast from 0 to 47 hours, i.e end=\"18\"."
 msgstr "Timer til siste vêrvarsel fra 0 til 47 timer, m.a.o end=\"18\""
 
-#: include/admin.php:452
+#: include/admin.php:451
 msgid "Number of hours between each forecast, i.e interval=\"2\"."
 msgstr "Timer mellom kvart vêrvarsel, m.a.o interval=\"2\""
 
-#: include/admin.php:454
+#: include/admin.php:453
 msgid "[wpyr_weather offset=\"6\" end=\"18\" interval=\"2\"]"
 msgstr "[wpyr_weather offset=\"6\" end=\"18\" interval=\"2\"]"
 
