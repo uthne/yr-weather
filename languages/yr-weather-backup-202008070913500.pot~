@@ -1,0 +1,1216 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Yr Weather shortcodes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-07 07:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: include/shortcodes.php:143 include/shortcodes-backup.php:136
+msgid "In the next hour"
+msgstr ""
+
+#: include/shortcodes.php:146 include/shortcodes-backup.php:139
+msgid "In one hour"
+msgstr ""
+
+#: include/shortcodes.php:149 include/shortcodes-backup.php:142
+msgid "Two hours from now"
+msgstr ""
+
+#: include/shortcodes.php:152 include/shortcodes-backup.php:145
+msgid "hours from now"
+msgstr ""
+
+#: include/help.php:15 include/help.php:295
+msgid "About Yr Weather"
+msgstr ""
+
+#: include/help.php:16
+msgid ""
+"This plugin use the weather service from <a href=\"https://yr.no\">yr.no</a> "
+"to provide forecast for single point in time or sequence of hour-by-hour "
+"forecast by using shortcodes to be implemented on pages or posts."
+msgstr ""
+
+#: include/help.php:17
+msgid ""
+"You can set your default settings and create templates for the shortcodes in "
+"these preferences. You can also override many of these preferences by adding "
+"attributes to individual shorcode implementations."
+msgstr ""
+
+#: include/help.php:18
+msgid ""
+"This plugin is provided as full version, free-to-use under Creative Commons "
+"(CC) license. The yr.no weather service is a governmental service financed "
+"for by Norwegian tax-payers and are free to use under Creative Commons "
+"license."
+msgstr ""
+
+#: include/help.php:19
+msgid ""
+"The weather symbols \"outline\" and \"black\" are made by the author of this "
+"plugin, and published under Creative Commons. The symbols are loosely based "
+"on the weather icons provided by the yr.no weather service. The color "
+"weather icons are property of yr.no weather service and published under free-"
+"to-use MIT license on <a href=\"https://github.com/nrkno/yr-weather-"
+"symbols\">GitHub</a>."
+msgstr ""
+
+#: include/help.php:20
+msgid ""
+"This plugin do not collect any user data, and comply with the European GDPR "
+"Directive."
+msgstr ""
+
+#: include/help.php:21
+msgid "Yr Weather Shortcode"
+msgstr ""
+
+#: include/help.php:21
+msgid "version"
+msgstr ""
+
+#: include/help.php:22
+msgid "General options for Yr Weather"
+msgstr ""
+
+#: include/help.php:26 include/admin.php:76
+msgid "Default place"
+msgstr ""
+
+#: include/help.php:27
+msgid ""
+"The default location for weather forecast. To obtain correct definition of "
+"your location, go to <a href=\"https://yr.no\" target=\"_blank\">yr.no</a> "
+"and search for your location. Copy part of the URL from between \"place/\" "
+"and to the last \"/\" :"
+msgstr ""
+
+#: include/help.php:28
+msgid ""
+"<pre>https://www.yr.no/place/<span style=\"background-color: #ffff00;\">"
+"Norway/Oslo/Oslo/Oslo</span>/?spr=eng</pre>"
+msgstr ""
+
+#: include/help.php:32 include/admin.php:83
+msgid "Offset"
+msgstr ""
+
+#: include/help.php:33
+msgid ""
+"The offset in hours for the forecast. Using the @offset tag in your template "
+"will output a descriptive offset text like <em>\"3 hours from now\"</em> in "
+"your forecast or forecast loop. "
+msgstr ""
+
+#: include/help.php:37 include/admin.php:90
+msgid "Icon set"
+msgstr ""
+
+#: include/help.php:38
+msgid ""
+"You can choose from several different icon sets. The outline/black icons can "
+"be further modified with the options below. As a general rule you will need "
+"to use <em>fatter</em> icons, or color icons for smaller sizes."
+msgstr ""
+
+#: include/help.php:42
+msgid "Icon width and Icon height"
+msgstr ""
+
+#: include/help.php:43
+msgid ""
+"Use any CSS definition like <em>100px</em>, <em>3em</em> or <em>100vw</em>."
+msgstr ""
+
+#: include/help.php:47 include/admin.php:111
+msgid "Small icons"
+msgstr ""
+
+#: include/help.php:48
+msgid ""
+"Choose the icon set for the smaller symbols you can implement in your "
+"template ([@symbol-temp] [@symbol-wind] [@symbol-dir] [@symbol-precip] "
+"[@symbol-pressure]). As a general rule you will need to use <em>fatter</em> "
+"icons for smaller sizes."
+msgstr ""
+
+#: include/help.php:52
+msgid "Small icon width and height"
+msgstr ""
+
+#: include/help.php:53
+msgid ""
+"Will apply to the icons/symbols you implement in your template. Use any CSS "
+"definition like <em>50px</em>, <em>3em</em> or <em>5vw</em>."
+msgstr ""
+
+#: include/help.php:57 include/admin.php:132
+msgid "Use icon as color-mask"
+msgstr ""
+
+#: include/help.php:58
+msgid "This this will let you add a color tint to the weather icons."
+msgstr ""
+
+#: include/help.php:62
+msgid "Icon mask color"
+msgstr ""
+
+#: include/help.php:63
+msgid ""
+"The color used to tint the icons. The <em>outline</em> and <em>black</em> "
+"icons are black and transparent, and the color is achieved by coloring the "
+"background and using the icon as mask."
+msgstr ""
+
+#: include/help.php:68
+msgid "Template options for Yr Weather"
+msgstr ""
+
+#: include/help.php:72 include/admin.php:166
+msgid "Custom CSS"
+msgstr ""
+
+#: include/help.php:73
+msgid ""
+"Insert custom CSS to style the display of shortcodes. This CSS will be "
+"written to the <head> tag, but for optimized performance it is best practice "
+"to implement CSS-code in your theme."
+msgstr ""
+
+#: include/help.php:73
+msgid ""
+"You can use the tags <em style=\"color:green\">_width_</em>, <em "
+"style=\"color:green\">_height_</em> and <em style=\"color:green\">"
+"_color_</em> to implement these from the General Options."
+msgstr ""
+
+#: include/help.php:76 include/admin.php:173
+msgid "Custom HTML for single"
+msgstr ""
+
+#: include/help.php:77
+msgid ""
+"You can create your own custom layout that will be used in the shortcode. "
+"Use the tags listed below to place data-elements in your layout. The <em>"
+"Translatable texts</em> can be used to implement translatable texts to your "
+"layout."
+msgstr ""
+
+#: include/help.php:80 include/admin.php:180
+msgid "Custom HTML for loop"
+msgstr ""
+
+#: include/help.php:81
+msgid ""
+"This HTML code will be used to display a sequence of forecasts with the "
+"shortcode. You can use all the tags above to implement data- and "
+"translatable texts"
+msgstr ""
+
+#: include/help.php:81
+msgid ""
+"In addition you can define a container to embrace the loop. Use the [@loop-"
+"start] and [@loop-end] tags to mark the start and end of the template for "
+"the individual forecasts."
+msgstr ""
+
+#: include/help.php:81
+msgid ""
+"If you do not use the [@loop-start] and [@loop-end] tags, a &lt;DIV&gt; tag "
+"with the class from <em>Class for container</em> will be added."
+msgstr ""
+
+#: include/help.php:84 include/admin.php:187
+msgid "Use single template for loop"
+msgstr ""
+
+#: include/help.php:85
+msgid ""
+"This option force use the <em>Custom HTML for single</em> in a loop/sequence "
+"of forecasts. If you have defined a loop template with [@loop-start] and "
+"[@loop-end], the template between these tags will be replaced by the single-"
+"template."
+msgstr ""
+
+#: include/help.php:88 include/admin.php:194
+msgid "Class for container"
+msgstr ""
+
+#: include/help.php:89
+msgid ""
+"If you don't define a <em>Custom HTML for loop</em> or don't use the [@loop-"
+"start] and [@loop-end] tags, a &lt;DIV&gt; tag with this class will be added "
+"around the sequence/loop."
+msgstr ""
+
+#: include/help.php:93
+msgid "Data tags for templates"
+msgstr ""
+
+#: include/help.php:94
+msgid "To implement weather data in your template you can use these tags."
+msgstr ""
+
+#: include/help.php:98
+msgid "Creates a complete image tag for current weather symbol"
+msgstr ""
+
+#: include/help.php:103
+msgid "URL to current weather symbol"
+msgstr ""
+
+#: include/help.php:108
+msgid "Current location for weather forecast"
+msgstr ""
+
+#: include/help.php:113
+msgid "Formatted and localized date as <em>August 1.</em>"
+msgstr ""
+
+#: include/help.php:118
+msgid ""
+"Formatted and localized date and time of forecast as <em>August 1, 11.00 - "
+"12.00</em>"
+msgstr ""
+
+#: include/help.php:123
+msgid "Start of current forcast in hours as <em>11.00</em>"
+msgstr ""
+
+#: include/help.php:128
+msgid "End of current forecast in hours as <em>12.00</em>"
+msgstr ""
+
+#: include/help.php:133
+msgid ""
+"Descriptive text for time of forecast as <em>In the next hour</em> or <em>3 "
+"hours from now</em>"
+msgstr ""
+
+#: include/help.php:138 include/help.php:148 include/help.php:193
+msgid "Same as above but without capital letter (e.g for use mid-sentence)"
+msgstr ""
+
+#: include/help.php:143
+msgid ""
+"A short description of current weather as <em>Cloudy</em>, <em>Fair</em>, "
+"<em>Light rain and thunder</em>"
+msgstr ""
+
+#: include/help.php:153
+msgid "Numeric representation of current temperature in degrees Celsius"
+msgstr ""
+
+#: include/help.php:158
+msgid "Numeric representation of current temperature in degrees Fahrenheit"
+msgstr ""
+
+#: include/help.php:163
+msgid "Numeric representation of current precipitation in millimeter"
+msgstr ""
+
+#: include/help.php:168
+msgid ""
+"Numeric representation of current barometric pressure in hPa, accurate to 1 "
+"decimal"
+msgstr ""
+
+#: include/help.php:173
+msgid "Numeric representation of current wind speed in m/s"
+msgstr ""
+
+#: include/help.php:178
+msgid "Localized general direction of current wind as N, NNW, NW etc."
+msgstr ""
+
+#: include/help.php:183
+msgid ""
+"Same as above but non-localized (e.g international English, N, NNW, NW etc.)"
+msgstr ""
+
+#: include/help.php:188
+msgid ""
+"Descriptive localized general direction of current wind as North, North-"
+"Northwest, Northwest etc."
+msgstr ""
+
+#: include/help.php:198
+msgid ""
+"Numeric representation of current wind direction in degrees, accurate to 1 "
+"decimal"
+msgstr ""
+
+#: include/help.php:203
+msgid "Static image to represent temperature (thermometer)"
+msgstr ""
+
+#: include/help.php:208
+msgid "Static image to represent wind (curly lines)"
+msgstr ""
+
+#: include/help.php:213
+msgid ""
+"Dynamic image to represent general wind direction as N, NNW, NW etc. (arrow "
+"in circle)"
+msgstr ""
+
+#: include/help.php:218
+msgid "Static image to represent precipitation (umbrella)"
+msgstr ""
+
+#: include/help.php:223
+msgid "Static image to represent atmospheric pressure (barometer)"
+msgstr ""
+
+#: include/help.php:228
+msgid "Unit of temperature in dataset (e.g Celsius)"
+msgstr ""
+
+#: include/help.php:233
+msgid "Correct spelling of Fahrenheit"
+msgstr ""
+
+#: include/help.php:238
+msgid "Unit of pressure in dataset (e.g hPa)"
+msgstr ""
+
+#: include/help.php:243
+msgid "Altitude of current location"
+msgstr ""
+
+#: include/help.php:248
+msgid ""
+"Latitude of current location, can be used to implement map (will require "
+"additional programming or plugin)"
+msgstr ""
+
+#: include/help.php:253
+msgid "Longitude of current location, can be used to implement map"
+msgstr ""
+
+#: include/help.php:258
+msgid "Translatable texts for templates"
+msgstr ""
+
+#: include/help.php:259
+msgid ""
+"There are several translatable <em>words</em> you can use in your template."
+msgstr ""
+
+#: include/help.php:260
+msgid ""
+"These are frequently used weather related words that will be shown in a "
+"localized translation."
+msgstr ""
+
+#: include/help.php:261
+msgid "The translatable texts below should be fairly self-explanatory."
+msgstr ""
+
+#: include/help.php:262
+msgid ""
+"And remember you can write most of the words starting with a capital letter, "
+"and the translation will start with a capital letter."
+msgstr ""
+
+#: include/help.php:266
+msgid ""
+"<strong>Note:</strong> if this plugin is not translated to your language, "
+"you can use a Wordpress plugin like <em>Loco Translate</em> to make the "
+"translation."
+msgstr ""
+
+#: include/help.php:267
+msgid "Tags for loop in template"
+msgstr ""
+
+#: include/help.php:268
+msgid ""
+"In the template for loops you can use all the data tags, but additionally "
+"you have the option to define HTML-code for container surrounding the loop."
+msgstr ""
+
+#: include/help.php:269
+msgid ""
+"To separate the template for the loop from the container you must add [@loop-"
+"start] and [@loop-end]."
+msgstr ""
+
+#: include/help.php:270
+msgid ""
+"If you don't add these tags, a &lt;DIV&gt; tag with the class from <em>Class "
+"for container</em> will be added."
+msgstr ""
+
+#: include/help.php:271
+msgid ""
+"Note: you have to use the attributes <strong><em>offset</em></strong> and "
+"<strong><em>end</em></strong> in the shortcode to enable loop."
+msgstr ""
+
+#: include/help.php:276
+msgid ""
+"This tag must be added after the surrounding container, before the code in "
+"the actual loop."
+msgstr ""
+
+#: include/help.php:281
+msgid ""
+"This tag must be added after the code in the actual loop, before the closing "
+"of the surrounding container."
+msgstr ""
+
+#: include/help.php:282
+msgid ""
+"Take extra care to make sure you close every tag in the surrounding "
+"container."
+msgstr ""
+
+#: include/help.php:287
+msgid "Shortcodes for Yr Weather"
+msgstr ""
+
+#: include/help.php:288
+msgid ""
+"There are only one shortcode in this plugin, but all the options make it "
+"very versatile. For a full list of attributes and functionality please look "
+"in the <em>Shortcodes</em> tab in the main window."
+msgstr ""
+
+#: include/help.php:300
+msgid "General Options"
+msgstr ""
+
+#: include/help.php:305
+msgid "Template Options"
+msgstr ""
+
+#: include/help.php:310
+msgid "Data Tags"
+msgstr ""
+
+#: include/help.php:315
+msgid "Loop Tags"
+msgstr ""
+
+#: include/help.php:320
+msgid "Translatable texts"
+msgstr ""
+
+#: include/help.php:325
+msgid "Shortcodes"
+msgstr ""
+
+#: include/output.php:54
+msgid "Time"
+msgstr ""
+
+#: include/output.php:56
+msgid "From"
+msgstr ""
+
+#: include/output.php:57
+msgid "Hour"
+msgstr ""
+
+#: include/output.php:58
+msgid "hours"
+msgstr ""
+
+#: include/output.php:59
+msgid "Hours"
+msgstr ""
+
+#: include/output.php:60
+msgid "To"
+msgstr ""
+
+#: include/output.php:61
+msgid "Place"
+msgstr ""
+
+#: include/output.php:62
+msgid "Precipitation"
+msgstr ""
+
+#: include/output.php:63
+msgid "Wind"
+msgstr ""
+
+#: include/output.php:64
+msgid "Windspeed"
+msgstr ""
+
+#: include/output.php:65
+msgid "Wind-direction"
+msgstr ""
+
+#: include/output.php:66
+msgid "Temperature"
+msgstr ""
+
+#: include/output.php:67
+msgid "Pressure"
+msgstr ""
+
+#: include/output.php:68
+msgid "Air pressure"
+msgstr ""
+
+#: include/output.php:69
+msgid "Atmospheric pressure"
+msgstr ""
+
+#: include/output.php:70
+msgid "Barometric pressure"
+msgstr ""
+
+#: include/output.php:71
+msgid "Altitude"
+msgstr ""
+
+#: include/output.php:72
+msgid "MAS"
+msgstr ""
+
+#: include/output.php:73
+msgid "Meters above sea level"
+msgstr ""
+
+#: include/output.php:74
+msgid "Latitude"
+msgstr ""
+
+#: include/output.php:75
+msgid "Longitude"
+msgstr ""
+
+#: include/output.php:76
+msgid "Degrees"
+msgstr ""
+
+#: include/output.php:77
+msgid "And"
+msgstr ""
+
+#: include/output.php:78
+msgid "In"
+msgstr ""
+
+#: include/output.php:79
+msgid "At"
+msgstr ""
+
+#: include/output.php:80
+msgid "Weather"
+msgstr ""
+
+#: include/output.php:81
+msgid "The weather"
+msgstr ""
+
+#: include/output.php:149
+msgid "Clear sky"
+msgstr ""
+
+#: include/output.php:150
+msgid "Fair"
+msgstr ""
+
+#: include/output.php:151
+msgid "Partly cloudy"
+msgstr ""
+
+#: include/output.php:152
+msgid "Cloudy"
+msgstr ""
+
+#: include/output.php:153
+msgid "Light rain showers"
+msgstr ""
+
+#: include/output.php:154
+msgid "Rain showers"
+msgstr ""
+
+#: include/output.php:155
+msgid "Heavy rain showers"
+msgstr ""
+
+#: include/output.php:156
+msgid "Light rain showers and thunder"
+msgstr ""
+
+#: include/output.php:157
+msgid "Rain showers and thunder"
+msgstr ""
+
+#: include/output.php:158
+msgid "Heavy rain showers and thunder"
+msgstr ""
+
+#: include/output.php:159
+msgid "Light sleet showers"
+msgstr ""
+
+#: include/output.php:160
+msgid "Sleet showers"
+msgstr ""
+
+#: include/output.php:161
+msgid "Heavy sleet showers"
+msgstr ""
+
+#: include/output.php:162
+msgid "Light sleet showers and thunder"
+msgstr ""
+
+#: include/output.php:163
+msgid "Sleet showers and thunder"
+msgstr ""
+
+#: include/output.php:164
+msgid "Heavy sleet showers and thunder"
+msgstr ""
+
+#: include/output.php:165
+msgid "Light snow showers"
+msgstr ""
+
+#: include/output.php:166
+msgid "Snow showers"
+msgstr ""
+
+#: include/output.php:167
+msgid "Heavy snow showers"
+msgstr ""
+
+#: include/output.php:168
+msgid "Light snow showers and thunder"
+msgstr ""
+
+#: include/output.php:169
+msgid "Snow showers and thunder"
+msgstr ""
+
+#: include/output.php:170
+msgid "Heavy snow showers and thunder"
+msgstr ""
+
+#: include/output.php:171
+msgid "Light rain"
+msgstr ""
+
+#: include/output.php:172
+msgid "Rain"
+msgstr ""
+
+#: include/output.php:173
+msgid "Heavy rain"
+msgstr ""
+
+#: include/output.php:174
+msgid "Light rain and thunder"
+msgstr ""
+
+#: include/output.php:175
+msgid "Rain and thunder"
+msgstr ""
+
+#: include/output.php:176
+msgid "Heavy rain and thunder"
+msgstr ""
+
+#: include/output.php:177
+msgid "Light sleet"
+msgstr ""
+
+#: include/output.php:178
+msgid "Sleet"
+msgstr ""
+
+#: include/output.php:179
+msgid "Heavy sleet"
+msgstr ""
+
+#: include/output.php:180
+msgid "Light sleet and thunder"
+msgstr ""
+
+#: include/output.php:181
+msgid "Sleet and thunder"
+msgstr ""
+
+#: include/output.php:182
+msgid "Heavy sleet and thunder"
+msgstr ""
+
+#: include/output.php:183
+msgid "Light snow"
+msgstr ""
+
+#: include/output.php:184
+msgid "Snow"
+msgstr ""
+
+#: include/output.php:185
+msgid "Heavy snow"
+msgstr ""
+
+#: include/output.php:186
+msgid "Light snow and thunder"
+msgstr ""
+
+#: include/output.php:187
+msgid "Snow and thunder"
+msgstr ""
+
+#: include/output.php:188
+msgid "Heavy snow and thunder"
+msgstr ""
+
+#: include/output.php:189
+msgid "Fog"
+msgstr ""
+
+#: include/output.php:204
+msgid "N"
+msgstr ""
+
+#: include/output.php:207
+msgid "NNE"
+msgstr ""
+
+#: include/output.php:210
+msgid "NE"
+msgstr ""
+
+#: include/output.php:213
+msgid "ENE"
+msgstr ""
+
+#: include/output.php:216
+msgid "E"
+msgstr ""
+
+#: include/output.php:219
+msgid "ESE"
+msgstr ""
+
+#: include/output.php:222
+msgid "SE"
+msgstr ""
+
+#: include/output.php:224
+msgid "SSE"
+msgstr ""
+
+#: include/output.php:227
+msgid "S"
+msgstr ""
+
+#: include/output.php:229
+msgid "SSW"
+msgstr ""
+
+#: include/output.php:232
+msgid "SW"
+msgstr ""
+
+#: include/output.php:234
+msgid "WSW"
+msgstr ""
+
+#: include/output.php:237
+msgid "W"
+msgstr ""
+
+#: include/output.php:240
+msgid "WNW"
+msgstr ""
+
+#: include/output.php:243
+msgid "NW"
+msgstr ""
+
+#: include/output.php:246
+msgid "NNW"
+msgstr ""
+
+#: include/output.php:262
+msgid "North"
+msgstr ""
+
+#: include/output.php:265
+msgid "North-Norteast"
+msgstr ""
+
+#: include/output.php:268
+msgid "Norteast"
+msgstr ""
+
+#: include/output.php:271
+msgid "East-Northeast"
+msgstr ""
+
+#: include/output.php:274
+msgid "East"
+msgstr ""
+
+#: include/output.php:277
+msgid "East-Southeast"
+msgstr ""
+
+#: include/output.php:280
+msgid "Southeast"
+msgstr ""
+
+#: include/output.php:282
+msgid "South-Southeast"
+msgstr ""
+
+#: include/output.php:285
+msgid "South"
+msgstr ""
+
+#: include/output.php:287
+msgid "South-Southwest"
+msgstr ""
+
+#: include/output.php:290
+msgid "Southwest"
+msgstr ""
+
+#: include/output.php:292
+msgid "West-Southwest"
+msgstr ""
+
+#: include/output.php:295
+msgid "West"
+msgstr ""
+
+#: include/output.php:298
+msgid "West-Northwest"
+msgstr ""
+
+#: include/output.php:301
+msgid "Northwest"
+msgstr ""
+
+#: include/output.php:304
+msgid "North-Northwest"
+msgstr ""
+
+#: include/admin.php:23
+msgid ""
+"Create custom CSS to style the elements on your page. Use the help-tab in "
+"the upper right corner for more info..."
+msgstr ""
+
+#: include/admin.php:24
+msgid ""
+"Create custom layout with HTML code and use the keywords below to place data "
+"in your layout. Use help-tab in the upper right corner to read more..."
+msgstr ""
+
+#: include/admin.php:25
+msgid "Select image"
+msgstr ""
+
+#: include/admin.php:46
+msgid "Yr Weather Options"
+msgstr ""
+
+#: include/admin.php:47
+msgid "Weather Options"
+msgstr ""
+
+#: include/admin.php:65
+msgid "General"
+msgstr ""
+
+#: include/admin.php:69
+msgid "General opions for Yr Weather shortcodes"
+msgstr ""
+
+#: include/admin.php:97
+msgid "Icon width"
+msgstr ""
+
+#: include/admin.php:104
+msgid "Icon height"
+msgstr ""
+
+#: include/admin.php:118
+msgid "Small icon width"
+msgstr ""
+
+#: include/admin.php:125
+msgid "Small icon height"
+msgstr ""
+
+#: include/admin.php:139
+msgid "Icon color"
+msgstr ""
+
+#: include/admin.php:147
+msgid "Reset"
+msgstr ""
+
+#: include/admin.php:156
+msgid "Templates"
+msgstr ""
+
+#: include/admin.php:160
+msgid "Template options for Yr Weather shortcodes"
+msgstr ""
+
+#: include/admin.php:203
+msgid "Shortcode"
+msgstr ""
+
+#: include/admin.php:207
+msgid "Shortcode for Yr Weather"
+msgstr ""
+
+#: include/admin.php:217
+msgid "This is the general settings for Yr weather shortcodes."
+msgstr ""
+
+#: include/admin.php:218 include/admin.php:337
+msgid "Use the Help-tab in the upper right corner for more info on settings."
+msgstr ""
+
+#: include/admin.php:227
+msgid "See Help-tab in upper right corner on how to get correct place."
+msgstr ""
+
+#: include/admin.php:234
+msgid "Now"
+msgstr ""
+
+#: include/admin.php:239
+msgid "Hours offset to forecast."
+msgstr ""
+
+#: include/admin.php:250 include/admin.php:279
+msgid "Outline Thin"
+msgstr ""
+
+#: include/admin.php:251 include/admin.php:280
+msgid "Outline Normal"
+msgstr ""
+
+#: include/admin.php:252 include/admin.php:281
+msgid "Outline Fat"
+msgstr ""
+
+#: include/admin.php:253 include/admin.php:282
+msgid "Black"
+msgstr ""
+
+#: include/admin.php:254
+msgid "Yr Color V.3.0"
+msgstr ""
+
+#: include/admin.php:256
+msgid "Select icon set to use as standard."
+msgstr ""
+
+#: include/admin.php:266
+msgid "Write css width, i.e 100px, 100%, 10vw etc."
+msgstr ""
+
+#: include/admin.php:273
+msgid "Write css height, i.e 100px, 10vw, 10vw etc."
+msgstr ""
+
+#: include/admin.php:284
+msgid ""
+"Icon set for symbols like temperature, wind, direction, barometer, "
+"precipitation etc."
+msgstr ""
+
+#: include/admin.php:294
+msgid "Write css width, i.e 50px, 50%, 5vw etc."
+msgstr ""
+
+#: include/admin.php:301
+msgid "Write css height, i.e 50px, 5em, 5vw etc."
+msgstr ""
+
+#: include/admin.php:309
+msgid "Add color to icon."
+msgstr ""
+
+#: include/admin.php:316
+msgid "Defines a color tint to icon mask."
+msgstr ""
+
+#: include/admin.php:324
+msgid ""
+"Check to force default options when plugin is deactivated and reactivated."
+msgstr ""
+
+#: include/admin.php:336
+msgid "This is the settings for templates for Yr Weather shortcodes."
+msgstr ""
+
+#: include/admin.php:352
+msgid ""
+"This CSS will be written to the &lt;head&gt; tag, but for optimized "
+"performance it is best practice to implement CSS-code in your theme."
+msgstr ""
+
+#: include/admin.php:367
+msgid "Use these tags to include weather data in your layout:"
+msgstr ""
+
+#: include/admin.php:375
+msgid "Translatable texts (also with first letter capitalized):"
+msgstr ""
+
+#: include/admin.php:396
+msgid "Use all tags above, and the following to mark start and end of loop:"
+msgstr ""
+
+#: include/admin.php:406
+msgid "Use single template in loop shortcode."
+msgstr ""
+
+#: include/admin.php:413
+msgid "Class of outer container (if loop template is not defined)."
+msgstr ""
+
+#: include/admin.php:425
+msgid "These are the shortcodes and attributes for Yr Weather."
+msgstr ""
+
+#: include/admin.php:430
+msgid ""
+"Using the shortcode without any attributes will render the weather forecast "
+"as defined in the shortcode settings. You can however add several variables, "
+"or attributes to override these settings"
+msgstr ""
+
+#: include/admin.php:432
+msgid ""
+"Set the location for the weather forecast. See help-tab in upper right "
+"corner for more information on how to obtain correct location."
+msgstr ""
+
+#: include/admin.php:433
+msgid ""
+"You can offset the time of forecast from 0 to 47 hours, i.e offset=\"24\"."
+msgstr ""
+
+#: include/admin.php:434
+msgid ""
+"Use this to select the icon set. You can choose <em>thin</em>, <em>"
+"normal</em>, <em>fat</em>, <em>black</em> or <em>color</em>."
+msgstr ""
+
+#: include/admin.php:435
+msgid ""
+"The width of the icon, use any CSS definition, like <em>100px</em>, <em>"
+"100%</em> or <em>25vw</em>."
+msgstr ""
+
+#: include/admin.php:436
+msgid ""
+"The height of the icon, use any CSS definition except %, like <em>100px</em>,"
+" <em>10em</em> or <em>auto</em>."
+msgstr ""
+
+#: include/admin.php:437
+msgid ""
+"Icon set for symbols like temperature, wind, direction, barometer, "
+"precipitation etc in your template. You can choose <em>thin</em>, <em>"
+"normal</em>, <em>fat</em>, <em>black</em> or <em>color</em>."
+msgstr ""
+
+#: include/admin.php:438
+msgid ""
+"The width of the smallicon, use any CSS definition, like <em>100px</em>, <em>"
+"100%</em> or <em>25vw</em>."
+msgstr ""
+
+#: include/admin.php:439
+msgid ""
+"The height of the smallicon, use any CSS definition except %, like <em>"
+"100px</em>, <em>10em</em> or <em>auto</em>."
+msgstr ""
+
+#: include/admin.php:440
+msgid "<em>yes</em> or <em>no</em> if the icon should be used as a color mask."
+msgstr ""
+
+#: include/admin.php:441
+msgid ""
+"The color to be applied to the icon color mask. Use CSS definition such as "
+"<em>#ff0000</em> or <em>rgba(255,0,0,0.5)</em>"
+msgstr ""
+
+#: include/admin.php:443
+msgid ""
+"[wpyr_weather place=\"Norway/Oslo/Oslo/Oslo\" offset=\"3\" icon=\"fat\" "
+"width=\"200px\" height=\"200px\" mask=\"yes\" color=\"rgba(0,0,0,0.5)\"]"
+msgstr ""
+
+#: include/admin.php:448
+msgid ""
+"Use the same shortcode but add the <em>end</em> attribute with the <em>"
+"offset</em> attribute to make a loop/sequence of forecasts. You can use all "
+"the other attributes in a loop shortcode as well. There will only be one "
+"call to the yr.no to collect weather data for a loop/sequence"
+msgstr ""
+
+#: include/admin.php:450
+msgid ""
+"You can offset the start of forecast from 0 to 47 hours, i.e offset=\"6\"."
+msgstr ""
+
+#: include/admin.php:451
+msgid ""
+"Number of hours to the last forecast from 0 to 47 hours, i.e end=\"18\"."
+msgstr ""
+
+#: include/admin.php:452
+msgid "Number of hours between each forecast, i.e interval=\"2\"."
+msgstr ""
+
+#: include/admin.php:454
+msgid "[wpyr_weather offset=\"6\" end=\"18\" interval=\"2\"]"
+msgstr ""
+
+#. Name of the plugin
+msgid "Yr Weather shortcodes"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Shortcodes for implementing weather forecast from Norwegian weather service "
+"Yr."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://uthne.net/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Kjetil Uthne Hansen"
+msgstr ""
