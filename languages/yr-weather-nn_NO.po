@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Yr Weather shortcodes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 09:13+0000\n"
-"PO-Revision-Date: 2020-08-07 09:16+0000\n"
+"PO-Revision-Date: 2020-08-10 11:32+0000\n"
 "Last-Translator: \n"
 "Language-Team: Norsk nynorsk\n"
 "Language: nn_NO\n"
@@ -50,9 +50,9 @@ msgid ""
 "these preferences. You can also override many of these preferences by adding "
 "attributes to individual shorcode implementations."
 msgstr ""
-"Du kan lagre standard val for snøggkoden i dette panelet. Du kan også "
+"Du kan lagre standard val for snøggkoda i dette panelet. Du kan også "
 "overstyre mange av desse vala ved å leggje til attributt i kvar enkelt "
-"implementering av snøggkoden."
+"implementering av snøggkoda."
 
 #: include/help.php:18
 msgid ""
@@ -227,7 +227,7 @@ msgid ""
 "written to the <head> tag, but for optimized performance it is best practice "
 "to implement CSS-code in your theme."
 msgstr ""
-"Legg inn eigen CSS for utsjåande på snøggkoden. Denne CSS-koden vil skrivast "
+"Legg inn eigen CSS for utsjåande på snøggkoda. Denne CSS-koden vil skrivast "
 "til <head> -taggen i dokumentet, men for optimaliserte sider er det "
 "tilrådeleg å leggje all CSS-kode i bunaden i Wordpress."
 
@@ -252,7 +252,7 @@ msgid ""
 "Translatable texts</em> can be used to implement translatable texts to your "
 "layout."
 msgstr ""
-"Du kan leggje inn din eigen HTML-kode som skal nyttast av snøggkoden. Bruk "
+"Du kan leggje inn din eigen HTML-kode som skal nyttast av snøggkoda. Bruk "
 "nøkkelorda nedanfor for å leggje inn data-element i utforminga. <em>"
 "Omsetjelege tekster</em> kan nyttast for å leggje inn lokalt omsette tekster."
 
@@ -266,7 +266,7 @@ msgid ""
 "shortcode. You can use all the tags above to implement data- and "
 "translatable texts"
 msgstr ""
-"Denne HTML-koden nyttes for å vise sekvensar av vêrvarsel med snøggkoden. Du "
+"Denne HTML-koden nyttes for å vise sekvensar av vêrvarsel med snøggkoda. Du "
 "kan nytte alle nøkkelorda over for å leggje inn data og omsette tekster."
 
 #: include/help.php:81
@@ -318,7 +318,7 @@ msgstr ""
 
 #: include/help.php:93
 msgid "Data tags for templates"
-msgstr "Datanøkler for maler"
+msgstr "Datanøklar for maler"
 
 #: include/help.php:94
 msgid "To implement weather data in your template you can use these tags."
@@ -548,7 +548,7 @@ msgid ""
 "<strong><em>end</em></strong> in the shortcode to enable loop."
 msgstr ""
 "Merk: du må bruke attributta <strong><em>offset</em></strong> og <strong><em>"
-"end</em></strong> i snøggkoden for å lage ei sløyfe."
+"end</em></strong> i snøggkoda for å lage ei sløyfe."
 
 #: include/help.php:276
 msgid ""
@@ -576,7 +576,7 @@ msgstr ""
 
 #: include/help.php:287
 msgid "Shortcodes for Yr Weather"
-msgstr "Snøggkoder for Yr Vêr"
+msgstr "Snøggkodar for Yr Vêr"
 
 #: include/help.php:288
 msgid ""
@@ -598,11 +598,11 @@ msgstr "Malval"
 
 #: include/help.php:310
 msgid "Data Tags"
-msgstr "Datanøkler"
+msgstr "Datanøklar"
 
 #: include/help.php:315
 msgid "Loop Tags"
-msgstr "Sløyfenøkler"
+msgstr "Sløyfenøklar"
 
 #: include/help.php:320
 msgid "Translatable texts"
@@ -610,7 +610,7 @@ msgstr "Omsetjelege tekster"
 
 #: include/help.php:325
 msgid "Shortcodes"
-msgstr "Snøggkoder"
+msgstr "Snøggkode"
 
 #: include/output.php:54
 msgid "Time"
