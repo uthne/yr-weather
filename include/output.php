@@ -5,18 +5,13 @@
  * TODO: 
  **/
 
-$wpyr_default_css = "";
-
-
-
-
 /*----- INJECT CSS -----*/
 add_action( 'wp_head', 'wpyr_add_wp_head' );
 
+$wpyr_default_css = "";
 function wpyr_add_wp_head() {
 	global $wpyr_default_css;
 	$options = wpyr_get_option();
-
 	echo "<style type\"text/css\" id=\"custom-wprs\">\n";
 	echo $wpyr_default_css . "\n";
 	$options = wpyr_get_option();
@@ -31,7 +26,6 @@ function wpyr_add_wp_head() {
 	echo "</style>\n";
 }
 
-
 /*----- DEFAULT TEMPLATE -----*/
 function wpyr_defaul_template() {
 	$wpyr_templ = '[@symbol]';
@@ -45,12 +39,9 @@ function wpyr_defaul_template() {
 	return $wpyr_templ;
 }
 
-
 /*----- LANGUAGE -----*/
-
 function wpyr_translate_template( $str ) {
 	$wpyr_Time = __( 'Time', 'yr-weather' );
-
 	$wpyr_From = __( 'From', 'yr-weather' );
 	$wpyr_Hour = __( 'Hour', 'yr-weather' );
 	$wpyr_hours = __( 'hours', 'yr-weather' );
@@ -138,10 +129,8 @@ function wpyr_translate_template( $str ) {
 			strtolower( $wpyr_The_weather ), $wpyr_The_weather
 		),
 		$str );
-
 	return $ret_str;
 }
-
 
 function wpyr_translate_description( $str, $small = false ) {
 	$clearsky = __( "Clear sky", 'yr-weather' );
@@ -252,8 +241,6 @@ function wpyr_translate_direction( $str, $small = false ) {
 	return $ret_str;
 }
 
-
-
 function wpyr_describe_direction( $str, $small = false ) {
 	switch ( $str ) {
 		case "N":
@@ -309,5 +296,4 @@ function wpyr_describe_direction( $str, $small = false ) {
 	}
 	return $ret_str;
 }
-
 ?>

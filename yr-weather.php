@@ -20,9 +20,7 @@ function wpyr_load_textdomain() {
 
 define( 'WPYR_PLUGINPATH', plugin_dir_path( __FILE__ ) );
 define( 'WPYR_PLUGINURL', plugins_url( 'yr-weather/' ) );
-
 const VERSION = '1.0';
-
 
 function wpyr_get_option() {
 	$general = ( array )get_option( 'wpyr_settings' );
@@ -75,9 +73,7 @@ function wpyr_plugin_activate() {
 	}
 }
 
-
 /*---- LOAD INCLUDE FILES -----*/
-
 require_once( WPYR_PLUGINPATH . 'include/functions.php' );
 require_once( WPYR_PLUGINPATH . 'include/admin.php' );
 require_once( WPYR_PLUGINPATH . 'include/shortcodes.php' );
@@ -86,5 +82,4 @@ require_once( WPYR_PLUGINPATH . 'include/output.php' );
 if ( is_admin() ) {
 	require_once( WPYR_PLUGINPATH . 'include/help.php' );
 }
-
 ?>

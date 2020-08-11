@@ -288,7 +288,6 @@ function codex_wpyr_help_tab() {
 <p>" . __( "There are only one shortcode in this plugin, but all the options make it very versatile. For a full list of attributes and functionality please look in the <em>Shortcodes</em> tab in the main window.", "yr-weather" ) . '</p>
 <em style="color:blue">[wpyr_weather place="Norway/Oslo/Oslo/Oslo" offset="6" end="18" interval="2" icon="fat" width="200px" height="200px" smallicon="black" smallwidth="50px" smallheight="50px" mask="yes" color="rgba(0,0,0,0.5)</em></p><p>';
 
-
 	// Setup help tab args.
 	$args_about = array(
 		'id' => 'wpyr_about_tab', //unique id for the tab

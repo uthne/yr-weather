@@ -5,10 +5,7 @@
  * TODO: 
  **/
 
-
 /*---------- General Functions ----------*/
-
-
 if ( !function_exists( 'get_xml_from_url' ) ) {
 	function get_xml_from_url( $url ) {
 		$ch = curl_init();
@@ -23,7 +20,6 @@ if ( !function_exists( 'get_xml_from_url' ) ) {
 		return $xmlstr;
 	} // end function
 } // end if exists
-
 
 if ( !function_exists( 'wpyr_file_exists_remote' ) ) {
 	function wpyr_file_exists_remote( $url ) {
@@ -50,8 +46,6 @@ if ( !function_exists( 'wpyr_file_exists_remote' ) ) {
 	} // end function
 } // end if exists
 
-
-
 /**
  * convert xml string to php array - useful to get a serializable value
  *
@@ -71,6 +65,7 @@ if ( !function_exists( 'xmlstr_to_array' ) ) {
 		return $output;
 	} // end function
 } // end if exists
+
 if ( !function_exists( 'domnode_to_array' ) ) {
 	function domnode_to_array( $node ) {
 		$output = array();
@@ -127,8 +122,6 @@ if ( !function_exists( 'wpyr_natksort' ) ) {
 	} // end function
 } // end if exists
 
-
-
 if ( !function_exists( 'wpyr_make_slug' ) ) {
 	function wpyr_make_slug( $str ) {
 		# special accents
@@ -171,12 +164,7 @@ if ( !function_exists( 'convertEncodingUTF' ) ) {
 	} // end function
 } // end if exists
 
-
-
-
 /*---------- Output Functions ----------*/
-
-
 if ( !function_exists( 'wpyr_hide_email' ) ) {
 	function wpyr_hide_email( $email ) {
 		$character_set = '+-.0123456789@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz';
@@ -192,10 +180,6 @@ if ( !function_exists( 'wpyr_hide_email' ) ) {
 		return '<span id="' . $id . '">Send epost</span>' . $script;
 	} // end function
 } // end if exists
-
-
-
-
 
 
 ?>

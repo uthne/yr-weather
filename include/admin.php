@@ -7,7 +7,6 @@
 
 add_action( 'admin_menu', 'wpyr_add_admin_menu' );
 add_action( 'admin_init', 'wpyr_settings_init' );
-
 add_action( 'admin_enqueue_scripts', 'wpyr_admin_css_scripts', 10, 1 );
 
 
@@ -51,10 +50,6 @@ function wpyr_add_admin_menu() {
 	add_action( 'load-' . $wpyr_setting_page, 'codex_wpyr_help_tab' );
 }
 
-
-
-
-
 #add settings fields and draw form
 function wpyr_settings_init() {
 	global $wpyr_settings_tabs;
@@ -68,7 +63,6 @@ function wpyr_settings_init() {
 		'wpyr_general_section_callback',
 		'weather_general'
 	);
-
 	add_settings_field(
 		'wpyr_gen_place_text',
 		__( 'Default place', 'yr-weather' ),
@@ -139,7 +133,6 @@ function wpyr_settings_init() {
 		'weather_general',
 		'wpyr_general_section'
 	);
-
 	add_settings_field(
 		'wpyr_gen_reset_checkbox',
 		__( 'Reset', 'yr-weather' ),
@@ -147,8 +140,6 @@ function wpyr_settings_init() {
 		'weather_general',
 		'wpyr_general_section'
 	);
-
-
 
 	//template tab
 	$wpyr_settings_tabs[ 'weather_template' ] = __( 'Templates', 'yr-weather' );
@@ -195,8 +186,6 @@ function wpyr_settings_init() {
 		'wpyr_template_section'
 	);
 
-
-
 	//shortcodes tab
 	$wpyr_settings_tabs[ 'weather_shortcode' ] = __( 'Shortcode', 'yr-weather' );
 	register_setting( 'weather_shortcode', 'wpyr_shortcode_settings' );
@@ -206,7 +195,6 @@ function wpyr_settings_init() {
 		'wpyr_shortcode_section_callback',
 		'weather_shortcode'
 	);
-
 }
 
 /* ----- GENERAL SETTINGS ----- */
@@ -215,9 +203,6 @@ function wpyr_general_section_callback() {
 	echo __( 'This is the general settings for Yr weather shortcodes.', 'yr-weather' );
 	echo '<br />' . __( 'Use the Help-tab in the upper right corner for more info on settings.', 'yr-weather' );
 }
-
-
-
 function wpyr_gen_place_text_render() {
 	$options = wpyr_get_option();
 	?>
@@ -246,7 +231,6 @@ function wpyr_gen_offset_select_render() {
 }
 function wpyr_gen_icon_select_render() { 
 	$options = wpyr_get_option();
-
 ?>
 <select name='wpyr_settings[wpyr_gen_icon_select]'>
 	<option value="thin"<?php if($options['wpyr_gen_icon_select'] == "thin") echo(' selected'); ?>><?php _e('Outline Thin','yr-weather'); ?></option>
@@ -267,7 +251,6 @@ function wpyr_gen_iconwidth_text_render() {
 <input type='text' name='wpyr_settings[wpyr_gen_iconwidth_text]' value='<?php echo $options['wpyr_gen_iconwidth_text']; ?>'> &nbsp;&nbsp;
 <?php _e( 'Write css width, i.e 100px, 100%, 10vw etc.','yr-weather' );
 }
-
 function wpyr_gen_iconheight_text_render() { 
 	$options = wpyr_get_option();
 	?>
@@ -327,18 +310,12 @@ function wpyr_gen_reset_checkbox_render() {
 	<?php
 }
 
-
-
-
-
-
 /* ----- TEMPLATES SETTINGS ----- */
 #functions for rendering template settings
 function wpyr_template_section_callback() { 
 	echo __( 'This is the settings for templates for Yr Weather shortcodes.','yr-weather' );
 	echo '<br />' . __( 'Use the Help-tab in the upper right corner for more info on settings.','yr-weather' );
 }
-
 function wpyr_template_css_area_render() { 
 	global $wpyr_default_css;
 	$options = wpyr_get_option();
@@ -377,8 +354,6 @@ function wpyr_template_css_area_render() {
 		[weather] [the-weather] [altitude] [MAS] [meters-above-sea] [latitude] [longitude]<br><br>' );
 	
 }
-
-
 function wpyr_template_loop_area_render() { 
 	global $wpyr_default_css;
 	$options = wpyr_get_option();
@@ -411,7 +386,6 @@ function wpyr_template_loop_checkbox_render() {
 		<?php _e( 'Class of outer container (if loop template is not defined).','yr-weather' );
 }
 
-
 /* ----- SHORTCODES ----- */
 #functions for rendering search settings
 function wpyr_shortcode_section_callback() { 
@@ -421,8 +395,7 @@ function wpyr_shortcode_section_callback() {
 		<tr>
 			<td colspan="2" valign="top">
 				<?php _e("These are the shortcodes and attributes for Yr Weather.","yr-weather" ); ?><br/>&nbsp;<br/>
-				<strong>
-
+			</td>
 		</tr>
 		<tr>
 			<th align="left" scope="row" valign="top" width="15%">[wpyr_weather]</th>
@@ -528,7 +501,6 @@ function wpyr_shortcode_section_callback() {
 </table>
 <?php
 }
-
 
 /* ----- TABS ----- */
 #function for rendering tabs

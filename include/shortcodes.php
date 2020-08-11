@@ -1,5 +1,4 @@
 <?php
-
 /*---------- Shortcode ----------*/
 /**
  * TODO: 
@@ -8,11 +7,9 @@
 add_shortcode( 'wpyr_weather', 'wpyr_weather_shortcode' );
 
 function wpyr_weather_shortcode( $atts ) {
-
 	$wpyr_out = '';
 	$options = wpyr_get_option();
 	$icon_path = plugin_dir_url( __DIR__ ) . 'assets/svg/';
-
 	extract( shortcode_atts( array(
 		'icon' => '',
 		'smallicon' => '',
@@ -28,10 +25,7 @@ function wpyr_weather_shortcode( $atts ) {
 		'interval' => ''
 	), $atts ) );
 
-
-
 	/*--- SORT OUT TEMPLATE ---*/
-
 	$isloop = ( $offset != '' && $end != '' ) ? true : false;
 	$pre_template = $post_template = '';
 
@@ -40,7 +34,6 @@ function wpyr_weather_shortcode( $atts ) {
 		if ( $offset > $end )$offset = $end;
 		$pre_template = '<div class="' . $options[ 'wpyr_template_loopclass_text' ] . '">';
 		$post_template = '</div>';
-
 		if ( !$options[ 'wpyr_template_loop_area' ] ) {
 			if ( isset( $options[ 'wpyr_template_loop_checkbox' ] ) && $options[ 'wpyr_template_html_area' ] && $options[ 'wpyr_template_html_area' ] != '' ) {
 				$template = $options[ 'wpyr_template_html_area' ];
@@ -54,7 +47,6 @@ function wpyr_weather_shortcode( $atts ) {
 				$pre_template = $arr_template[ 0 ];
 				$template = $arr_template[ 1 ];
 				$post_template = $arr_template[ 2 ];
-
 			} else {
 				$template = $options[ 'wpyr_template_loop_area' ];
 			}
@@ -109,17 +101,10 @@ function wpyr_weather_shortcode( $atts ) {
 	$latitude = $xmlobj[ 'location' ][ 'location' ][ '@attributes' ][ 'latitude' ];
 	$longitude = $xmlobj[ 'location' ][ 'location' ][ '@attributes' ][ 'longitude' ];
 
-
-
 	if ( $isloop && $pre_template != '' )$wpyr_out .= $pre_template;
-
-
 
 	/*--- LOOP START ---*/
 	for ( $i = $offset; $i <= $end; $i += $interval ) {
-
-
-
 		$description = $forecast[ $i ][ 'symbol' ][ '@attributes' ][ 'var' ];
 		$description = str_replace( array( 'm', 'n', 'd' ), array( '', '', '' ), $description );
 		$Description = wpyr_translate_description( $description );
@@ -139,7 +124,6 @@ function wpyr_weather_shortcode( $atts ) {
 		$pressure = $forecast[ $i ][ 'pressure' ][ '@attributes' ][ 'value' ];
 		$time_from = $forecast[ $i ][ '@attributes' ][ 'from' ];
 		$time_to = $forecast[ $i ][ '@attributes' ][ 'to' ];
-
 
 		switch ( $i ) {
 			case "0":
@@ -166,7 +150,6 @@ function wpyr_weather_shortcode( $atts ) {
 		$dir_icon = strtolower( $windDirection ) . '.svg';
 		$symbol_dir = wpyr_make_figure( $smallicon_url . $dir_icon, $smallheight, $smallwidth, $smallicon_set, $color, $mask, 'wpyr-small-symbol' );
 
-
 		/*--- MAKE OUTPUT ---*/
 		$temp = str_replace(
 			array( '[@symbol]', '[@symbol-url]', '[@place]', '[@description]', '[@description-lowercase]', '[@date-time]', '[@date]', '[@time-from]', '[@time-to]', '[@offset]', '[@offset-lowercase]', '[@temperature]', '[@temperature-f]', '[@precipitation]', '[@windSpeed]', '[@windDirection]', '[@windDirection-int]', '[@windText]', '[@windText-lowercase]', '[@windDegree]', '[@pressure]', '[@symbol-temp]', '[@symbol-wind]', '[@symbol-dir]', '[@symbol-precip]', '[@symbol-pressure]', '[@temp-unit]', '[@temp-unit-f]', '[@pressure-scale]', '[@altitude]', '[@latitude]', '[@longitude]' ),
@@ -176,10 +159,6 @@ function wpyr_weather_shortcode( $atts ) {
 
 	}
 	/*--- LOOP END ---*/
-
-
-
-
 
 	if ( $isloop && $post_template != '' ) {
 		$wpyr_out .= $post_template;
@@ -192,10 +171,6 @@ function wpyr_weather_shortcode( $atts ) {
 
 	return $wpyr_out;
 }
-
-
-
-
 
 /*--- FUNCTIONS ---*/
 function wpyr_make_figure( $url = '', $height = '', $width = '', $icon_set = 'color', $color = '', $mask = '0', $class = 'wpyr-symbol' ) {
@@ -210,11 +185,6 @@ function wpyr_make_figure( $url = '', $height = '', $width = '', $icon_set = 'co
 	}
 	return $figure_html;
 }
-
-
-
-
-
 function wpyr_split_template( $templ ) {
 	$arr1 = explode( '[@loop-start]', $templ );
 	$arr2 = explode( '[@loop-end]', $arr1[ 1 ] );
@@ -223,10 +193,6 @@ function wpyr_split_template( $templ ) {
 	$ret3 = $arr2[ 1 ];
 	return array( $ret1, $ret2, $ret3 );
 }
-
-
-
-
 function wpyr_make_compdate( $time_from, $time_to ) {
 	if ( !$time_from || !$time_to ) return;
 	$time_from_date = explode( "T", $time_from );
@@ -241,14 +207,12 @@ function wpyr_make_compdate( $time_from, $time_to ) {
 	}
 	return $comp_date;
 }
-
 function wpyr_make_hour( $time ) {
 	if ( !$time ) return '';
 	$time_from_date = explode( "T", $time );
 	$hour = substr( $time_from_date[ 1 ], 0, -3 );
 	return $hour;
 }
-
 function wpyr_make_date( $time_from ) {
 	if ( !$time_from ) return;
 	$l = explode( '_', get_locale() );
@@ -258,7 +222,4 @@ function wpyr_make_date( $time_from ) {
 	$comp_date = date_i18n( $format, strtotime( $time_from_date[ 0 ] ) );
 	return $comp_date;
 }
-
-
-
 ?>
