@@ -32,7 +32,7 @@ Should the program prove defective, you assume the cost of all necessary servici
 
 == Installation ==
 
-1. Upload the plugin files to the '/wp-content/plugins/[plugin-name]' directory, or download the plugin as ZIP-file install with the "Add new" button on the plugin page in WordPress.  
+1. Upload the plugin files to the '/wp-content/plugins/[plugin-name]' directory, or download the plugin as ZIP-file and install with the "Add new" button on the plugin page in WordPress.  
 2. Activate the plugin on the Plugins page.
 3. Select your options in the plugin setting. (Wordpress: Settings -> Weather Options)
 3. Use the Shortcode [wpyr_weather] on pages and posts.
@@ -40,7 +40,7 @@ Should the program prove defective, you assume the cost of all necessary servici
 
 == Features ==
 
-- Shortcode to create a single weather forecast or a sequence of forecasts at intervals.
+- Shortcode to create a single weather forecast or a sequence of forecasts at intervals
 - Choose any place in the world based on the weather service yr.no
 - Choose offset in hours to forecast.
 - Choose start and end time of forcast loop (as offset from "now")
