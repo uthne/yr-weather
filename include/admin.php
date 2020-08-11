@@ -1,5 +1,4 @@
 <?php
-
 /*---------- Admin ----------*/
 /**
  * Create and display admin panel shortcode

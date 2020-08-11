@@ -1,5 +1,4 @@
 <?php
-
 /*---------- Help ----------*/
 /**
  * Create help tabs for admin panel 
