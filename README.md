@@ -2,7 +2,7 @@
 
 Contributors: uthne
 
-Tags: Weather, Article, article, post, page, custom post type
+Tags: Weather, Forecast, Shortcode
 
 Version: 1.0
 
