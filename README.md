@@ -81,3 +81,8 @@ The color weather icons are property of yr.no weather service and published unde
 == GDPR compliance ==
 
 This plugin do not collect any user data, and comply with the European GDPR Directive.
+
+
+== Donations ==
+
+Please donate time or resources to help someone in need. Help fight poverty, loneliness and social inequality.
