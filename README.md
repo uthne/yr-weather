@@ -70,8 +70,11 @@ The plugin is written with English as primary language with fully translatable t
 == License ==
 
 This plugin is provided as full version, free-to-use under GPLv3 license. 
-The yr.no weather service is a governmental service financed for by Norwegian tax-payers and are free to use under Creative Commons license.
+
+The yr.no weather service is a governmental service financed by Norwegian tax-payers and are free to use under Creative Commons license.
+
 The weather symbols "outline" and "black" are made by the author of this plugin, and published under GPLv3 license. The symbols are loosely based on the weather icons provided by the yr.no weather service. 
+
 The color weather icons are property of yr.no weather service and published under free-to-use MIT license on GitHub (https://github.com/nrkno/yr-weather-symbols).
 
 
