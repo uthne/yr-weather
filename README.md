@@ -43,7 +43,7 @@ Should the program prove defective, you assume the cost of all necessary servici
 - Shortcode to create a single weather forecast or a sequence of forecasts at intervals.
 - Choose any place in the world based on the weather service yr.no
 - Choose offset in hours to forecast.
-- Choose start end time of forcast loop (as offset from "now")
+- Choose start and end time of forcast loop (as offset from "now")
 - 5 sets of weather icons to choose from
 - Style icon sizes and color
 - Create your own template for single forcast and forcast loops
