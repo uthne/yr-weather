@@ -40,7 +40,7 @@ Should the program prove defective, you assume the cost of all necessary servici
 
 == Features ==
 
-- Shortcode to create a single weather forecast or a sequence of forecasts at intervals.
+- Shortcode to create a single weather forecast or a sequence of forecasts at intervals
 - Choose any place in the world based on the weather service yr.no
 - Choose offset in hours to forecast.
 - Choose start and end time of forcast loop (as offset from "now")
