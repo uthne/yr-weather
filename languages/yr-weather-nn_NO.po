@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Yr Weather shortcodes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 09:13+0000\n"
-"PO-Revision-Date: 2020-08-10 11:45+0000\n"
+"PO-Revision-Date: 2020-08-10 13:21+0000\n"
 "Last-Translator: \n"
 "Language-Team: Norsk nynorsk\n"
 "Language: nn_NO\n"
@@ -1204,8 +1204,7 @@ msgstr "Bruk mal for enkeltvisning i sløyfe."
 #: include/admin.php:412
 msgid "Class of outer container (if loop template is not defined)."
 msgstr ""
-"Klasse til omsluttande <em>container</em> (dersom sløyfe-mail ikkje er lagra)"
-"."
+"Klasse til omsluttande <em>container</em> (dersom sløyfe-mal ikkje er lagra)."
 
 #: include/admin.php:424
 msgid "These are the shortcodes and attributes for Yr Weather."
