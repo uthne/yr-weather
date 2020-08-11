@@ -1,7 +1,5 @@
 // JavaScript Document
 
-
-
 ( function( global, $ ) {
     var CSSeditor, HTMLeditor,
         syncCSS = function() {
@@ -42,7 +40,6 @@
 			setTimeout(updateHTML, 100);
 			LOOPeditor.on("input", updateLOOP);
 			setTimeout(updateLOOP, 100);
-
         },
 		updateCSS = function() {
     		var shouldShow = !CSSeditor.session.getValue().length;
@@ -100,10 +97,7 @@
     global.aceSyncCSS = syncCSS;
 } )( this, jQuery );
 
-
 jQuery( document ).ready(function(e) {
-    
-	
 	var wpyr_colorpicker_opts = {
 		defaultColor: false,
 		// a callback to fire whenever the color changes to a valid color
@@ -116,15 +110,10 @@ jQuery( document ).ready(function(e) {
 		// or, supply an array of colors to customize further
 		palettes: true
 	};
-	 
-	
 	jQuery('#wpyr_gen_iconcolor_text').wpColorPicker(wpyr_colorpicker_opts);
-	
 	jQuery('.allowCopy').click(function() {
      	jQuery(this).focus();
      	jQuery(this).select();
      	document.execCommand('copy');
    });
-
-
 });
