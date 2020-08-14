@@ -206,16 +206,19 @@ function wpyr_translate_direction( $str, $small = false ) {
 			break;
 		case "SE":
 			$ret_str = __( 'SE', 'yr-weather' );
+			break;
 		case "SSE":
 			$ret_str = __( 'SSE', 'yr-weather' );
 			break;
 		case "S":
 			$ret_str = __( 'S', 'yr-weather' );
+			break;
 		case "SSW":
 			$ret_str = __( 'SSW', 'yr-weather' );
 			break;
 		case "SW":
 			$ret_str = __( 'SW', 'yr-weather' );
+			break;
 		case "WSW":
 			$ret_str = __( 'WSW', 'yr-weather' );
 			break;
